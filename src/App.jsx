@@ -19,7 +19,7 @@ function App() {
             <img src={backBtn} className=" hidden" alt="" />
           </div>
           <img src={juicebox} alt="" className=" h-12" />
-          <div className=" p-3 bg-slate-800 cursor-pointer rounded-full">
+          <div className=" cursor-pointer rounded-full">
             <img src={refreshBtn} alt="" onClick={() => navigate('/')} />
           </div>
         </div>

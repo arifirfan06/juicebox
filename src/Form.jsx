@@ -23,7 +23,7 @@ export default function Form() {
           <img src={backBtn} onClick={() => navigate('/about')} />
         </div>
         <img src={juicebox} alt="Logo" className="h-12" />
-        <div className="p-3 bg-slate-800 rounded-full cursor-pointer">
+        <div className=" rounded-full cursor-pointer">
           <img src={refreshBtn} alt="Next Slide" onClick={() => navigate('/form')} />
         </div>
       </div>
@@ -63,8 +63,8 @@ This will take 2-3 minutes. 
                 className="bg-[#0C0D10] rounded-sm p-1"
                 type="text"
                 placeholder="Email"
-                onChange={handleNameChange}
-                value={name}
+                onChange={(e) => {setEmail(e.target.value)}}
+                value={email}
               />
               <img
                 src={backBtn}

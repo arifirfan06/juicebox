@@ -36,7 +36,7 @@ export default function About() {
             <img src={backBtn} alt="Previous Slide" />
           </div>
           <img src={juicebox} alt="Logo" className="h-12" />
-          <div className="p-3 bg-slate-800 rounded-full cursor-pointer" onClick={ () => navigate('/about')}>
+          <div className=" rounded-full cursor-pointer" onClick={ () => navigate('/about')}>
             <img src={refreshBtn} alt="Next Slide" />
           </div>
         </div>
